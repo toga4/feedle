@@ -1,1 +1,1 @@
-# github-stars-release-feeder
+# gsrf - Github Stars Release Feeder

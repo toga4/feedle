@@ -1,4 +1,4 @@
-module github.com/toga4/github-stars-release-feeder
+module github.com/toga4/gsrf
 
 go 1.17
 
