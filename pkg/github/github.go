@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	"github.com/google/go-github/v42/github"
-	"github.com/toga4/gsrf/pkg/iterator"
+	"github.com/toga4/github-stars-release-feeder/pkg/iterator"
 )
 
 type Client struct {

@@ -9,9 +9,9 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/toga4/gsrf/pkg/feed"
-	"github.com/toga4/gsrf/pkg/github"
-	"github.com/toga4/gsrf/pkg/iterator"
+	"github.com/toga4/github-stars-release-feeder/pkg/feed"
+	"github.com/toga4/github-stars-release-feeder/pkg/github"
+	"github.com/toga4/github-stars-release-feeder/pkg/iterator"
 )
 
 func main() {
