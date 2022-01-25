@@ -1,1 +1,1 @@
-# github-stars-release-feeder
+# feedle - Bundle multiple feeds into one.
