@@ -62,16 +62,11 @@ func (*defaultGenerateFeedMapper) MapToGorillaFeeds(feed *Feed) *feeds.Feed {
 		})
 	}
 
-	max := 10
-	if max > len(items) {
-		max = len(items)
-	}
-
 	return &feeds.Feed{
 		Title:   feed.Title,
 		Link:    &feeds.Link{Href: feed.Link},
 		Updated: feed.Updated,
 		Id:      feed.ID,
-		Items:   items[0:max],
+		Items:   items,
 	}
 }
