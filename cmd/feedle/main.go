@@ -93,7 +93,8 @@ func ParseFeedItems(ctx context.Context, parser *feed.Parser, urlCh <-chan strin
 			log.Printf("Fetch: %s\n", url)
 			items, err := parser.ParseURL(ctx, url)
 			if err != nil {
-				log.Fatalf("Error while parsing feed: %s, err: %v", url, err)
+				log.Printf("Error while parsing feed: %s, err: %v", url, err)
+				continue
 			}
 			log.Printf("Fetched: %s\n", url)
 
